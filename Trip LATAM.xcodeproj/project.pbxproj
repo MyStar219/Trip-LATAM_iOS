@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		72ECE040EB4753DE4047FE5F /* Pods_Trip_LATAM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A02BB5991A60005D5CEADC63 /* Pods_Trip_LATAM.framework */; };
+		976FCB6B1FD83BDE0014EB10 /* appicon_60.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 976FCB641FD83BDE0014EB10 /* appicon_60.PNG */; };
+		976FCB6C1FD83BDE0014EB10 /* appicon_180.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 976FCB651FD83BDE0014EB10 /* appicon_180.PNG */; };
+		976FCB6D1FD83BDE0014EB10 /* appicon_120.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 976FCB661FD83BDE0014EB10 /* appicon_120.PNG */; };
+		976FCB6E1FD83BDE0014EB10 /* appicon_40.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 976FCB671FD83BDE0014EB10 /* appicon_40.PNG */; };
+		976FCB6F1FD83BDE0014EB10 /* appicon_87.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 976FCB681FD83BDE0014EB10 /* appicon_87.PNG */; };
+		976FCB701FD83BDE0014EB10 /* appicon_58.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 976FCB691FD83BDE0014EB10 /* appicon_58.PNG */; };
+		976FCB711FD83BDE0014EB10 /* appicon_80.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 976FCB6A1FD83BDE0014EB10 /* appicon_80.PNG */; };
+		976FCB771FD862E80014EB10 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 976FCB761FD862E80014EB10 /* GoogleService-Info.plist */; };
+		9772A2AE1FD8C111000EDF39 /* iOSDevCenters+GIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9772A2AD1FD8C111000EDF39 /* iOSDevCenters+GIF.swift */; };
+		9772A2B11FD8C169000EDF39 /* animation.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9772A2B01FD8C169000EDF39 /* animation.gif */; };
+		97AD92971FD9735700154DE2 /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 97AD92961FD9735600154DE2 /* splash.png */; };
+		97B408101FD74AE9009A3075 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B4080F1FD74AE9009A3075 /* AppDelegate.swift */; };
+		97B408121FD74AE9009A3075 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B408111FD74AE9009A3075 /* ViewController.swift */; };
+		97B408151FD74AE9009A3075 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97B408131FD74AE9009A3075 /* Main.storyboard */; };
+		97B408171FD74AE9009A3075 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97B408161FD74AE9009A3075 /* Assets.xcassets */; };
+		97B4081A1FD74AE9009A3075 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97B408181FD74AE9009A3075 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		13EEC5C53BDB13FCCEA4B70F /* Pods-Trip LATAM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trip LATAM.release.xcconfig"; path = "Pods/Target Support Files/Pods-Trip LATAM/Pods-Trip LATAM.release.xcconfig"; sourceTree = "<group>"; };
+		19B98F4183B383E90C2F1757 /* Pods-Trip LATAM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trip LATAM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Trip LATAM/Pods-Trip LATAM.debug.xcconfig"; sourceTree = "<group>"; };
+		976FCB641FD83BDE0014EB10 /* appicon_60.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appicon_60.PNG; sourceTree = "<group>"; };
+		976FCB651FD83BDE0014EB10 /* appicon_180.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appicon_180.PNG; sourceTree = "<group>"; };
+		976FCB661FD83BDE0014EB10 /* appicon_120.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appicon_120.PNG; sourceTree = "<group>"; };
+		976FCB671FD83BDE0014EB10 /* appicon_40.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appicon_40.PNG; sourceTree = "<group>"; };
+		976FCB681FD83BDE0014EB10 /* appicon_87.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appicon_87.PNG; sourceTree = "<group>"; };
+		976FCB691FD83BDE0014EB10 /* appicon_58.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appicon_58.PNG; sourceTree = "<group>"; };
+		976FCB6A1FD83BDE0014EB10 /* appicon_80.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appicon_80.PNG; sourceTree = "<group>"; };
+		976FCB761FD862E80014EB10 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9772A2AD1FD8C111000EDF39 /* iOSDevCenters+GIF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "iOSDevCenters+GIF.swift"; sourceTree = "<group>"; };
+		9772A2B01FD8C169000EDF39 /* animation.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = animation.gif; sourceTree = "<group>"; };
+		97AD92961FD9735600154DE2 /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash.png; sourceTree = "<group>"; };
+		97B4080C1FD74AE9009A3075 /* Trip LATAM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trip LATAM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		97B4080F1FD74AE9009A3075 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		97B408111FD74AE9009A3075 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		97B408141FD74AE9009A3075 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		97B408161FD74AE9009A3075 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		97B408191FD74AE9009A3075 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		97B4081B1FD74AE9009A3075 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A02BB5991A60005D5CEADC63 /* Pods_Trip_LATAM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Trip_LATAM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		97B408091FD74AE9009A3075 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72ECE040EB4753DE4047FE5F /* Pods_Trip_LATAM.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		135AA67FA6F5514065717E28 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A02BB5991A60005D5CEADC63 /* Pods_Trip_LATAM.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		41587AAA057CA34CA34834D7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				19B98F4183B383E90C2F1757 /* Pods-Trip LATAM.debug.xcconfig */,
+				13EEC5C53BDB13FCCEA4B70F /* Pods-Trip LATAM.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		976FCB631FD83BA90014EB10 /* App Icons */ = {
+			isa = PBXGroup;
+			children = (
+				97AD92961FD9735600154DE2 /* splash.png */,
+				976FCB671FD83BDE0014EB10 /* appicon_40.PNG */,
+				976FCB691FD83BDE0014EB10 /* appicon_58.PNG */,
+				976FCB641FD83BDE0014EB10 /* appicon_60.PNG */,
+				976FCB6A1FD83BDE0014EB10 /* appicon_80.PNG */,
+				976FCB681FD83BDE0014EB10 /* appicon_87.PNG */,
+				976FCB661FD83BDE0014EB10 /* appicon_120.PNG */,
+				976FCB651FD83BDE0014EB10 /* appicon_180.PNG */,
+			);
+			path = "App Icons";
+			sourceTree = "<group>";
+		};
+		9772A2AF1FD8C11B000EDF39 /* Animation Gif */ = {
+			isa = PBXGroup;
+			children = (
+				9772A2B01FD8C169000EDF39 /* animation.gif */,
+			);
+			path = "Animation Gif";
+			sourceTree = "<group>";
+		};
+		97B408031FD74AE9009A3075 = {
+			isa = PBXGroup;
+			children = (
+				97B4080E1FD74AE9009A3075 /* Trip LATAM */,
+				97B4080D1FD74AE9009A3075 /* Products */,
+				41587AAA057CA34CA34834D7 /* Pods */,
+				135AA67FA6F5514065717E28 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		97B4080D1FD74AE9009A3075 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97B4080C1FD74AE9009A3075 /* Trip LATAM.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		97B4080E1FD74AE9009A3075 /* Trip LATAM */ = {
+			isa = PBXGroup;
+			children = (
+				9772A2AF1FD8C11B000EDF39 /* Animation Gif */,
+				976FCB761FD862E80014EB10 /* GoogleService-Info.plist */,
+				976FCB631FD83BA90014EB10 /* App Icons */,
+				97B4080F1FD74AE9009A3075 /* AppDelegate.swift */,
+				97B408111FD74AE9009A3075 /* ViewController.swift */,
+				9772A2AD1FD8C111000EDF39 /* iOSDevCenters+GIF.swift */,
+				97B408131FD74AE9009A3075 /* Main.storyboard */,
+				97B408161FD74AE9009A3075 /* Assets.xcassets */,
+				97B408181FD74AE9009A3075 /* LaunchScreen.storyboard */,
+				97B4081B1FD74AE9009A3075 /* Info.plist */,
+			);
+			path = "Trip LATAM";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		97B4080B1FD74AE9009A3075 /* Trip LATAM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97B4081E1FD74AE9009A3075 /* Build configuration list for PBXNativeTarget "Trip LATAM" */;
+			buildPhases = (
+				0193F114E70A9D14B1330C0D /* [CP] Check Pods Manifest.lock */,
+				97B408081FD74AE9009A3075 /* Sources */,
+				97B408091FD74AE9009A3075 /* Frameworks */,
+				97B4080A1FD74AE9009A3075 /* Resources */,
+				811B4F67DE2C5211DAF35FA9 /* [CP] Embed Pods Frameworks */,
+				EA357A20567EDA3227569983 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Trip LATAM";
+			productName = "Trip LATAM";
+			productReference = 97B4080C1FD74AE9009A3075 /* Trip LATAM.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		97B408041FD74AE9009A3075 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Mobile Developer";
+				TargetAttributes = {
+					97B4080B1FD74AE9009A3075 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 97B408071FD74AE9009A3075 /* Build configuration list for PBXProject "Trip LATAM" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 97B408031FD74AE9009A3075;
+			productRefGroup = 97B4080D1FD74AE9009A3075 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				97B4080B1FD74AE9009A3075 /* Trip LATAM */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		97B4080A1FD74AE9009A3075 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				976FCB6D1FD83BDE0014EB10 /* appicon_120.PNG in Resources */,
+				97AD92971FD9735700154DE2 /* splash.png in Resources */,
+				9772A2B11FD8C169000EDF39 /* animation.gif in Resources */,
+				976FCB6F1FD83BDE0014EB10 /* appicon_87.PNG in Resources */,
+				976FCB6E1FD83BDE0014EB10 /* appicon_40.PNG in Resources */,
+				976FCB6B1FD83BDE0014EB10 /* appicon_60.PNG in Resources */,
+				976FCB711FD83BDE0014EB10 /* appicon_80.PNG in Resources */,
+				976FCB701FD83BDE0014EB10 /* appicon_58.PNG in Resources */,
+				97B4081A1FD74AE9009A3075 /* LaunchScreen.storyboard in Resources */,
+				976FCB6C1FD83BDE0014EB10 /* appicon_180.PNG in Resources */,
+				976FCB771FD862E80014EB10 /* GoogleService-Info.plist in Resources */,
+				97B408171FD74AE9009A3075 /* Assets.xcassets in Resources */,
+				97B408151FD74AE9009A3075 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0193F114E70A9D14B1330C0D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		811B4F67DE2C5211DAF35FA9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Trip LATAM/Pods-Trip LATAM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA357A20567EDA3227569983 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Trip LATAM/Pods-Trip LATAM-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		97B408081FD74AE9009A3075 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97B408121FD74AE9009A3075 /* ViewController.swift in Sources */,
+				9772A2AE1FD8C111000EDF39 /* iOSDevCenters+GIF.swift in Sources */,
+				97B408101FD74AE9009A3075 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		97B408131FD74AE9009A3075 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97B408141FD74AE9009A3075 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		97B408181FD74AE9009A3075 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97B408191FD74AE9009A3075 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		97B4081C1FD74AE9009A3075 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		97B4081D1FD74AE9009A3075 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		97B4081F1FD74AE9009A3075 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19B98F4183B383E90C2F1757 /* Pods-Trip LATAM.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = L4PRQP43PK;
+				INFOPLIST_FILE = "Trip LATAM/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Macauba.Trip-LATAM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "4f3dccb6-03af-404d-a40b-9b8008b24e3a";
+				PROVISIONING_PROFILE_SPECIFIER = "Trip LATAM iOS Distribution";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		97B408201FD74AE9009A3075 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13EEC5C53BDB13FCCEA4B70F /* Pods-Trip LATAM.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = L4PRQP43PK;
+				INFOPLIST_FILE = "Trip LATAM/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Macauba.Trip-LATAM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f141ca77-2d07-45d8-97c8-14db0745e38e";
+				PROVISIONING_PROFILE_SPECIFIER = "Trip LATAM iOS Distribution";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		97B408071FD74AE9009A3075 /* Build configuration list for PBXProject "Trip LATAM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97B4081C1FD74AE9009A3075 /* Debug */,
+				97B4081D1FD74AE9009A3075 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97B4081E1FD74AE9009A3075 /* Build configuration list for PBXNativeTarget "Trip LATAM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97B4081F1FD74AE9009A3075 /* Debug */,
+				97B408201FD74AE9009A3075 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 97B408041FD74AE9009A3075 /* Project object */;
+}
